@@ -1,0 +1,35 @@
+img{
+  width: 150px;
+}
+.right{
+  margin-left: 48px;
+}
+
+#size{
+  width: 240px;
+  
+}
+
+
+.dropup,dropend, .dropdown, .dropstart{
+  position: relative;
+}
+*, *::before, *::after{
+box-sizing: border-box;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+
+.header{
+  display:inline-block;
+}
